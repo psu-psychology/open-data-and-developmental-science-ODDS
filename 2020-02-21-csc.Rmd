@@ -1,0 +1,162 @@
+---
+title: "Research Computing in Child Development Research"
+subtitle: "Child Study Center (CSC)"
+author: "Rick Gilmore"
+date: "`r Sys.time()`"
+css: ioslides.css
+output: 
+  ioslides_presentation:
+    logo: "https://csc.la.psu.edu/images/research-icons/ODSS_4_green.png/@@images/f06a6427-81f6-4080-9039-b2c9188b88c6.png"
+    widescreen: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Agenda
+
+- Why we are here
+- Research computing in developmental research
+- Where are we now
+- Where we want to go
+- Feedback on strategic plan components
+
+# Why we are here
+
+---
+
+- Open Data & Developmental Science (ODDS) initiative
+    - R Bootcamps, [2017](http://psu-psychology.github.io/r-bootcamp/), [2018](https://psu-psychology.github.io/r-bootcamp-2018/), [2019](https://psu-psychology.github.io/r-bootcamp-2019/) (with M. Hallquist)
+    - Grad [course(s)](https://psu-psychology.github.io/psy-525-reproducible-research-2020/) on reproducible research practices
+    - Policies and practices (e.g., Gilmore, Cole, et. al., in press)
+    - [Databrary.org](https://databrary.org)
+    - Local hosting of ABCD database (M. Hallquist)
+
+---
+
+- Data science initiatives
+    - [Institute for Computational & Data Science (ICDS)](https://ics.psu.edu/)
+    - [Center for Social Data Analytics (SoDA)](https://soda.la.psu.edu/)
+    - Data Science Community meetings
+
+---
+
+- New faces at Old Main
+    - New Senior VP for Reseach ([Lora Weiss](https://www.research.psu.edu/node/3698))
+    - New Associate CIO for Research Computing ([Greg Madden](https://ovpit.psu.edu/greg-madden/))
+    - National search for new CIO/VP IT
+- Faculty governance of research computing
+    - [Research Computing & Cyberinfrastructure (RCCI)](https://rcci.psu.edu/) groups
+- University-wide strategic plan update this spring
+
+# Research computing in developmental research
+
+---
+
+- How we *gather* data
+    - Instruments (scanners, EEG, physio, eye tracking, smartphones/tablets)
+    - Digital video/audio
+    - Computer-based tasks, surveys
+- Where/how we *store* data
+- Where/how we *analyze* data
+- Where/how/when/with whom we *share* data & materials
+
+---
+
+>"*How can our faculty and students be more productive?*"
+
+>"*What resources (people, technologies, and expertise) will enable Penn State’s developmental community to expand its impact and reach?*"
+
+>"*What barriers (policies, technologies, and expertise) limit or slow progress?*"
+
+>"*How do emerging trends around sharing, transparency, and openness affect our work?*
+
+# Where we are now...
+
+## The "Rumsfeldian"
+
+```{r, out.height="500px", fig.align='center'}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Rumsfeld1.jpg/330px-Rumsfeld1.jpg")
+```
+
+---
+
+- What are we confident we know? (known-knowns)
+- What are we confident we don't know? (known-unknowns)
+- What might we have overlooked, neglected, or forgotten? (unknown-knowns)
+
+## What's working well?
+
+...for you with research computing...
+
+## What's not working well?
+
+# Where we want to go...
+
+---
+
+- What aren't we doing but could be?
+- What must we continue? What might be phased-out?
+- What are the highest priority/highest impact areas where we need to improve or build capacity?
+
+# Preview of strategic plan elements
+
+## Researcher Support
+
+- We will ensure that researchers have **access to national-caliber advanced computational services for traditional high performance computing** and high throughput computing workloads.
+
+- We will ensure that **researchers working with emerging technologies** (e.g. artificial intelligence, machine learning, immersive technologies, etc.) **have access to the tools and expertise** they need to accomplish their research. 
+
+---
+
+- We will ensure that researchers have access to resources and expertise to accomplish their goals whether they are working on local-scale computational clusters, university-scale computational clusters, national-scale computational clusters, or cloud-native computational environments.
+
+- We will ensure that researchers have **access to modern software for administering** their research. 
+
+---
+
+- We will ensure that researchers have **access to appropriate resources for providing public access to their research**, whether through website tools or university-scale analytical tools.
+
+- We will ensure that researchers **have the tools to collaborate** effectively across the university, the nation, and the world. 
+
+## Research Data Support
+    
+- We will partner with the research-data-related offices across the university to **put in place a holistic approach to managing research data** from data acquisition through data archiving or disposal. 
+
+- Through a combination of network technologies and data transfer applications, we will **ensure that large datasets can be efficiently moved** around the university, and to partners elsewhere, as needed. 
+
+---
+
+- We will partner with an appropriate subset of the research-data-related offices across the university to **ensure that the university can properly secure any research data** subject to access restrictions. 
+
+- We will partner with an appropriate subset of the research-data-related offices across the university to ensure that the university can properly **comply with all public access to data requirements**. 
+
+## What's missing?
+
+## What should be the most important priorities and why?
+
+# Resources
+
+<!-- Scrolling final reference page -->
+<!-- https://stackoverflow.com/q/38260799 -->
+<style>
+slides > slide { overflow: scroll; }
+slides > slide:not(.nobackground):before {
+  background: none;
+  }
+slides > slide:not(.nobackground):after {
+  content: '';
+  background: none;
+  }
+}
+</style>
+
+## Software
+
+This talk was produced on `r Sys.Date()` in [RStudio](https://rstudio.com) using R Markdown.
+The code and materials used to generate the slides may be found at <https://github.com/psu-psychology/open-data-and-developmental-science-ODDS/>.
+Information about the R Session that produced the code is as follows:
+```{r session-info}
+sessionInfo()
+```
