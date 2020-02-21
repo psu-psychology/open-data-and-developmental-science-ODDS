@@ -30,7 +30,7 @@ knitr::opts_chunk$set(echo = FALSE)
     - R Bootcamps, [2017](http://psu-psychology.github.io/r-bootcamp/), [2018](https://psu-psychology.github.io/r-bootcamp-2018/), [2019](https://psu-psychology.github.io/r-bootcamp-2019/) (with M. Hallquist)
     - Grad [course(s)](https://psu-psychology.github.io/psy-525-reproducible-research-2020/) on reproducible research practices
     - Policies and best practices (e.g., Gilmore, Cole, et. al., in press, *Child Development Perspectives*; [SRCD Policy](https://www.srcd.org/policy-scientific-integrity-transparency-and-openness))
-    - [Databrary.org](https://databrary.org)
+    - [Databrary.org](https://databrary.org); [Play & Learning Across a Year (PLAY) project](https://play-project.org)
     - Local hosting of [ABCD](https://www.nimh.nih.gov/research/research-funded-by-nimh/research-initiatives/adolescent-brain-cognitive-development-abcd-study.shtml) database (M. Hallquist)
 
 ---
@@ -96,6 +96,8 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/1/
 - Where/how we *store* data
 - Where/how we *analyze* data
 - Where/how/when/with whom we *share* data (and materials)
+
+- technologies, expertise, policies
 
 ## What's not working well?
 
