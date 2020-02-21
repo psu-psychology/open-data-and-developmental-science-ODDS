@@ -18,3 +18,9 @@ p, li, td {
 .references {
    font-size: 0.25em;
 }
+
+slides > slide:not(.nobackground):before {
+  width: 75px;
+  height: 75px;
+  background-size: 75px 75px;
+}

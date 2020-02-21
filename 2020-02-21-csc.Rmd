@@ -1,13 +1,13 @@
 ---
 title: "Research Computing in Child Development Research"
-subtitle: "Child Study Center (CSC)"
+subtitle: "Penn State Child Study Center (CSC)"
 author: "Rick Gilmore"
 date: "`r Sys.time()`"
-css: ioslides.css
 output: 
   ioslides_presentation:
     logo: "https://csc.la.psu.edu/images/research-icons/ODSS_4_green.png/@@images/f06a6427-81f6-4080-9039-b2c9188b88c6.png"
     widescreen: true
+    css: ioslides.css
 ---
 
 ```{r setup, include=FALSE}
@@ -16,22 +16,22 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Agenda
 
-- Why we are here
+- Why are we here
 - Research computing in developmental research
 - Where are we now
-- Where we want to go
-- Feedback on strategic plan components
+- Where do we want to go
+- Preview of strategic plan elements
 
-# Why we are here
+# Why are we here
 
 ---
 
 - Open Data & Developmental Science (ODDS) initiative
     - R Bootcamps, [2017](http://psu-psychology.github.io/r-bootcamp/), [2018](https://psu-psychology.github.io/r-bootcamp-2018/), [2019](https://psu-psychology.github.io/r-bootcamp-2019/) (with M. Hallquist)
     - Grad [course(s)](https://psu-psychology.github.io/psy-525-reproducible-research-2020/) on reproducible research practices
-    - Policies and practices (e.g., Gilmore, Cole, et. al., in press)
+    - Policies and best practices (e.g., Gilmore, Cole, et. al., in press, *Child Development Perspectives*; [SRCD Policy](https://www.srcd.org/policy-scientific-integrity-transparency-and-openness))
     - [Databrary.org](https://databrary.org)
-    - Local hosting of ABCD database (M. Hallquist)
+    - Local hosting of [ABCD](https://www.nimh.nih.gov/research/research-funded-by-nimh/research-initiatives/adolescent-brain-cognitive-development-abcd-study.shtml) database (M. Hallquist)
 
 ---
 
@@ -45,7 +45,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - New faces at Old Main
     - New Senior VP for Reseach ([Lora Weiss](https://www.research.psu.edu/node/3698))
     - New Associate CIO for Research Computing ([Greg Madden](https://ovpit.psu.edu/greg-madden/))
-    - National search for new CIO/VP IT
+    - National search for new [CIO/VP IT](https://president.psu.edu/cio)
 - Faculty governance of research computing
     - [Research Computing & Cyberinfrastructure (RCCI)](https://rcci.psu.edu/) groups
 - University-wide strategic plan update this spring
@@ -90,14 +90,21 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/1/
 
 ...for you with research computing...
 
+---
+
+- How we *gather* data
+- Where/how we *store* data
+- Where/how we *analyze* data
+- Where/how/when/with whom we *share* data (and materials)
+
 ## What's not working well?
 
-# Where we want to go...
+# Where do we want to go
 
 ---
 
 - What aren't we doing but could be?
-- What must we continue? What might be phased-out?
+- What must we continue? What might be streamlined or phased-out?
 - What are the highest priority/highest impact areas where we need to improve or build capacity?
 
 # Preview of strategic plan elements

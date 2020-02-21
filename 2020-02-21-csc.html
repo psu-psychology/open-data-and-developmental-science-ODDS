@@ -20,7 +20,7 @@
       // Slide settings
       settings: {
                 title: 'Research Computing in Child Development Research',
-                        subtitle: 'Child Study Center (CSC)',
+                        subtitle: 'Penn State Child Study Center (CSC)',
                 useBuilds: true,
         usePrettify: true,
         enableSlideAreas: true,
@@ -3142,6 +3142,11 @@ font-size: 0.25em;
 .references {
 font-size: 0.25em;
 }
+slides > slide:not(.nobackground):before {
+width: 75px;
+height: 75px;
+background-size: 75px 75px;
+}
 </style>
 
 </head>
@@ -3157,21 +3162,21 @@ font-size: 0.25em;
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">2020-02-19 14:32:58</p>
+            <p style="margin-top: 6px; margin-left: -2px;">2020-02-21 07:08:45</p>
           </hgroup>
   </slide>
 
 <slide class=""><hgroup><h2>Agenda</h2></hgroup><article  id="agenda">
 
 <ul>
-<li>Why we are here</li>
+<li>Why are we here</li>
 <li>Research computing in developmental research</li>
 <li>Where are we now</li>
-<li>Where we want to go</li>
-<li>Feedback on strategic plan components</li>
+<li>Where do we want to go</li>
+<li>Preview of strategic plan elements</li>
 </ul>
 
-</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Why we are here</h2></hgroup><article  id="why-we-are-here">
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Why are we here</h2></hgroup><article  id="why-are-we-here">
 
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
 
@@ -3181,9 +3186,9 @@ font-size: 0.25em;
 <ul>
 <li>R Bootcamps, <a href='http://psu-psychology.github.io/r-bootcamp/' title=''>2017</a>, <a href='https://psu-psychology.github.io/r-bootcamp-2018/' title=''>2018</a>, <a href='https://psu-psychology.github.io/r-bootcamp-2019/' title=''>2019</a> (with M. Hallquist)</li>
 <li>Grad <a href='https://psu-psychology.github.io/psy-525-reproducible-research-2020/' title=''>course(s)</a> on reproducible research practices</li>
-<li>Policies and practices (e.g., Gilmore, Cole, et. al., in press)</li>
+<li>Policies and best practices (e.g., Gilmore, Cole, et. al., in press, <em>Child Development Perspectives</em>; <a href='https://www.srcd.org/policy-scientific-integrity-transparency-and-openness' title=''>SRCD Policy</a>)</li>
 <li><a href='https://databrary.org' title=''>Databrary.org</a></li>
-<li>Local hosting of ABCD database (M. Hallquist)</li>
+<li>Local hosting of <a href='https://www.nimh.nih.gov/research/research-funded-by-nimh/research-initiatives/adolescent-brain-cognitive-development-abcd-study.shtml' title=''>ABCD</a> database (M. Hallquist)</li>
 </ul></li>
 </ul>
 
@@ -3207,7 +3212,7 @@ font-size: 0.25em;
 <ul>
 <li>New Senior VP for Reseach (<a href='https://www.research.psu.edu/node/3698' title=''>Lora Weiss</a>)</li>
 <li>New Associate CIO for Research Computing (<a href='https://ovpit.psu.edu/greg-madden/' title=''>Greg Madden</a>)</li>
-<li>National search for new CIO/VP IT</li>
+<li>National search for new <a href='https://president.psu.edu/cio' title=''>CIO/VP IT</a></li>
 </ul></li>
 <li>Faculty governance of research computing
 
@@ -3270,15 +3275,24 @@ font-size: 0.25em;
 
 <p>…for you with research computing…</p>
 
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<ul>
+<li>How we <em>gather</em> data</li>
+<li>Where/how we <em>store</em> data</li>
+<li>Where/how we <em>analyze</em> data</li>
+<li>Where/how/when/with whom we <em>share</em> data (and materials)</li>
+</ul>
+
 </article></slide><slide class=""><hgroup><h2>What’s not working well?</h2></hgroup><article  id="whats-not-working-well">
 
-</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Where we want to go…</h2></hgroup><article  id="where-we-want-to-go">
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Where do we want to go</h2></hgroup><article  id="where-do-we-want-to-go">
 
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
 
 <ul>
 <li>What aren’t we doing but could be?</li>
-<li>What must we continue? What might be phased-out?</li>
+<li>What must we continue? What might be streamlined or phased-out?</li>
 <li>What are the highest priority/highest impact areas where we need to improve or build capacity?</li>
 </ul>
 
@@ -3343,7 +3357,7 @@ slides > slide:not(.nobackground):after {
 
 </article></slide><slide class=""><hgroup><h2>Software</h2></hgroup><article  id="software">
 
-<p>This talk was produced on 2020-02-19 in <a href='https://rstudio.com' title=''>RStudio</a> using R Markdown. The code and materials used to generate the slides may be found at <a href='https://github.com/psu-psychology/open-data-and-developmental-science-ODDS/' title=''>https://github.com/psu-psychology/open-data-and-developmental-science-ODDS/</a>. Information about the R Session that produced the code is as follows:</p>
+<p>This talk was produced on 2020-02-21 in <a href='https://rstudio.com' title=''>RStudio</a> using R Markdown. The code and materials used to generate the slides may be found at <a href='https://github.com/psu-psychology/open-data-and-developmental-science-ODDS/' title=''>https://github.com/psu-psychology/open-data-and-developmental-science-ODDS/</a>. Information about the R Session that produced the code is as follows:</p>
 
 <pre >## R version 3.6.2 (2019-12-12)
 ## Platform: x86_64-apple-darwin15.6.0 (64-bit)
@@ -3364,7 +3378,7 @@ slides > slide:not(.nobackground):after {
 ##  [1] compiler_3.6.2  magrittr_1.5    htmltools_0.4.0
 ##  [4] tools_3.6.2     yaml_2.2.0      Rcpp_1.0.3     
 ##  [7] stringi_1.4.5   rmarkdown_2.1   knitr_1.27     
-## [10] stringr_1.4.0   xfun_0.12       digest_0.6.23  
+## [10] stringr_1.4.0   digest_0.6.23   xfun_0.12      
 ## [13] packrat_0.5.0   rlang_0.4.4     evaluate_0.14</pre></article></slide>
 
 
