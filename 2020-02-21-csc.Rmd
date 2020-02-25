@@ -48,6 +48,7 @@ knitr::opts_chunk$set(echo = FALSE)
     - National search for new [CIO/VP IT](https://president.psu.edu/cio)
 - Faculty governance of research computing
     - [Research Computing & Cyberinfrastructure (RCCI)](https://rcci.psu.edu/) groups
+- Research computing services [web site](https://cyberinfrastructure.psu.edu/)
 - University-wide strategic plan update this spring
 
 # Research computing in developmental research
@@ -60,6 +61,7 @@ knitr::opts_chunk$set(echo = FALSE)
     - Computer-based tasks, surveys
 - Where/how we *store* data
 - Where/how we *analyze* data
+- How we *protect* data
 - Where/how/when/with whom we *share* data & materials
 
 ---
